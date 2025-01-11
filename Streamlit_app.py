@@ -3,7 +3,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
-
+from matplotlib import font_manager
 # 添加自定义字体
 font_path = '/path/to/your/custom_font.ttf'
 font_manager.fontManager.addfont('simhei.ttf')
