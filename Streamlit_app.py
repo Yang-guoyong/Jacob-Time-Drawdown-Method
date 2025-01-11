@@ -4,6 +4,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
 
+# 添加自定义字体
+font_path = '/path/to/your/custom_font.ttf'
+font_manager.fontManager.addfont('simhei.ttf')
+
 # 全局设置
 np.set_printoptions(precision=4)
 plt.rcParams['axes.unicode_minus'] = False
