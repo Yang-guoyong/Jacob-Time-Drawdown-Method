@@ -6,7 +6,7 @@ import streamlit as st
 from matplotlib import font_manager
 # 添加自定义字体
 font_path = '/path/to/your/custom_font.ttf'
-font_manager.fontManager.addfont('simhei.ttf')
+font_manager.fontManager.addfont('/home/simhei.ttf')
 
 # 全局设置
 np.set_printoptions(precision=4)
