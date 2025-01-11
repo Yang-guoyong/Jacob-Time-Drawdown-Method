@@ -53,7 +53,7 @@ ax.plot(
     beta[0] + beta[1] * np.log10(obs_time),
     label="line fit", linestyle="--", color="g"
 )
-ax.legend(loc=4")
+ax.legend(loc=4)
 
 # 计算并显示结果
 T = 0.183 * pumping_rate / beta[1]
